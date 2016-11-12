@@ -1,0 +1,37 @@
+html {
+  color: #545454;
+  font-family: Helvetica;
+  font-size: 1em;
+  line-height: 1.4;
+  padding: 20px; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: .5em 0; }
+
+#content {
+  width: 500px;
+  height: 500px; }
+
+button {
+  text-transform: uppercase;
+  background-color: white;
+  border: 1px solid #8ccacc;
+  color: #8ccacc;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  display: block;
+  margin: 10px; }
+
+button:hover {
+  background-color: #8ccacc;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */

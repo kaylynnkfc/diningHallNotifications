@@ -1,0 +1,43 @@
+// Variables and imports
+
+@import '_defaults.scss';
+$shadow: rgba(0,0,0,0.19);
+$buttonColor: rgb(140, 202, 204);
+
+
+// Mixins
+
+@mixin button-style($color) {
+  text-transform: uppercase;
+  background-color: white;
+  border: 1px solid $color;
+  color: $color;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  display: block;
+  margin: 10px;
+}
+
+@mixin button-hover($color) {
+  background-color: $color;
+  color: white;
+}
+
+
+// New scss
+
+#content {
+  width: 500px;
+  height: 500px;
+}
+
+button {
+  @include button-style($buttonColor);
+}
+
+button:hover {
+  @include button-hover($buttonColor);
+}
