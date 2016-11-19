@@ -6,11 +6,11 @@ Note that the cron job automates the texts, whereas the webapp sends texts when 
 
 If you want to use yourself, you need API information from Twilio (mine has been removed) and you should probably customize what dining halls/meals you are interested in.
 
-# Notes:
+## Notes:
 * The structure of the page I'm parsing may change. This code worked on 11/12/16.
 * This project has a specific audience (students at Smith College), but feel free to contribute
 
-# Crontab Setup:
+## Crontab Setup:
 
 * pip install -r requirements.txt
 * sudo crontab -e
@@ -21,9 +21,15 @@ If you want to use yourself, you need API information from Twilio (mine has been
 
       30 7 * * SAT,SUN [python path] [path to]meals.py [meal: dinner or brunch]
 
-# Flask Webapp Setup:
+## Flask Webapp Setup:
 
 * pip install -r requirements.txt
 * pip install flask
 * python run.py
 * go to page
+
+
+## Screenshots:
+
+![img]
+[img]: /images/screenshot.png
